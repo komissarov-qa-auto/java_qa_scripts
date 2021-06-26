@@ -1,9 +1,4 @@
 
-[core]
-    safecrlf = false
-    excludesfile = C:\\Users\\Shape\\Documents\\gitignore_global.txt
-
-
 # Created by https://www.toptal.com/developers/gitignore/api/java
 # Edit at https://www.toptal.com/developers/gitignore?templates=java
 
@@ -54,3 +49,14 @@ gradle-app.setting
 **/build/
 
 # End of https://www.toptal.com/developers/gitignore/api/gradle
+java_basics/build.gradle
+java_basics/gradlew
+java_basics/gradlew.bat
+java_basics/settings.gradle
+java_basics/.idea/.gitignore
+java_basics/.idea/compiler.xml
+java_basics/.idea/gradle.xml
+java_basics/.idea/jarRepositories.xml
+java_basics/.idea/misc.xml
+java_basics/gradle/wrapper/gradle-wrapper.jar
+java_basics/gradle/wrapper/gradle-wrapper.properties
