@@ -1,4 +1,9 @@
 
+[core]
+    safecrlf = false
+    excludesfile = C:\\Users\\Shape\\Documents\\gitignore_global.txt
+
+
 # Created by https://www.toptal.com/developers/gitignore/api/java
 # Edit at https://www.toptal.com/developers/gitignore?templates=java
 
