@@ -1,23 +1,24 @@
-java_basics/build.gradle
-java_basics/gradlew
-java_basics/gradlew.bat
-java_basics/settings.gradle
-java_basics/.idea/compiler.xml
-java_basics/.idea/gradle.xml
-java_basics/.idea/jarRepositories.xml
-java_basics/.idea/misc.xml
-java_basics/.idea/workspace.xml
-java_basics/gradle/wrapper/gradle-wrapper.jar
-java_basics/gradle/wrapper/gradle-wrapper.properties
-java_basics/.idea/workspace.xml
-java_basics/.gradle/6.1/gc.properties
-java_basics/.gradle/6.1/executionHistory/executionHistory.bin
-java_basics/.gradle/6.1/executionHistory/executionHistory.lock
-java_basics/.gradle/6.1/fileChanges/last-build.bin
-java_basics/.gradle/6.1/fileHashes/fileHashes.bin
-java_basics/.gradle/6.1/fileHashes/fileHashes.lock
-java_basics/.gradle/buildOutputCleanup/buildOutputCleanup.lock
-java_basics/.gradle/buildOutputCleanup/cache.properties
-java_basics/.gradle/buildOutputCleanup/outputFiles.bin
-java_basics/.gradle/checksums/checksums.lock
-java_basics/.gradle/vcs-1/gc.properties
+
+# Created by https://www.toptal.com/developers/gitignore/api/gradle
+# Edit at https://www.toptal.com/developers/gitignore?templates=gradle
+
+### Gradle ###
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+### Gradle Patch ###
+**/build/
+
+# End of https://www.toptal.com/developers/gitignore/api/gradle
